@@ -1,0 +1,25 @@
+/* styles/ckeditor-styles.css */
+.ck-editor__editable {
+    color: #000; /* Warna teks hitam */
+    min-height: 300px; /* Tinggi minimum editor */
+    width: 100%; /* Pastikan lebar menyesuaikan kontainer */
+    box-sizing: border-box; /* Sertakan padding dan border dalam ukuran elemen */
+    overflow-y: auto; /* Tambahkan scroll jika konten melebihi tinggi */
+    font-family: Arial, sans-serif; /* Font default */
+    font-size: 16px; /* Ukuran font */
+    line-height: 1.5; /* Spasi antar baris untuk keterbacaan */
+    padding: 16px; /* Tambahkan ruang dalam editor */
+    padding-left: 32px; /* Menambahkan ruang lebih di sisi kiri */
+    padding-right: 32px; /* Menambahkan ruang lebih di sisi kanan */
+    border: 1px solid #ddd; /* Tambahkan border agar terlihat lebih jelas */
+    border-radius: 8px; /* Opsional: sudut border yang melengkung */
+    background-color: #fff; /* Warna latar belakang */
+}
+
+.ck-editor__editable ol {
+    padding-left: 40px; /* Menambahkan ruang di kiri untuk penomoran */
+}
+
+.ck-editor__editable ol li {
+    padding-left: 5px; /* Menambahkan ruang di kiri untuk elemen list */
+}
